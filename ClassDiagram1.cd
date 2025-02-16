@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Student.Studentcs">
+    <Position X="9.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEgQAAAAAAYAEEgUEBIgQAAAAEQAEDACgAAAAIAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StudentArray" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Student.StudentArray">
+    <Position X="1.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAgAAAAAACAAAAghAAAAAAgAAAAAEAAACABA=</HashCode>
+      <FileName>StudentArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student.UserInterface">
+    <Position X="5" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAQAAAAAAQAAAAAAAAABAIAAAA=</HashCode>
+      <FileName>UserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

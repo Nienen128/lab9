@@ -3,12 +3,12 @@ using System.Threading.Channels;
 
 namespace Student
 {
-    public class StudentArray
+    public class StudentArray : UserInterface
     {
         private Studentcs[] students;
         private static int objectCount = 0;
         private static int collectionCount = 0;
-        
+
 
         public int Length => students.Length;
 
@@ -77,7 +77,7 @@ namespace Student
             return objectCount;
         }
 
- 
+
         public static int GetCollectionCount()
         {
             return collectionCount;

@@ -3,7 +3,7 @@
 namespace Student
 {
 
-    public class Studentcs
+    public class Studentcs : UserInterface
     {
         private string name;
         private int age;
@@ -48,6 +48,14 @@ namespace Student
         {
             get { return gpa; }
             set { gpa = value; }
+        }
+
+        public StudentArray StudentArray
+        {
+            get => default;
+            set
+            {
+            }
         }
 
         // Метод для сравнения студентов
@@ -118,10 +126,10 @@ namespace Student
 
         public static int GetObjectCount()
         {
-            return Objects ;
+            return Objects;
         }
 
-        
+
         public static Studentcs operator ~(Studentcs student)
         {
             if (student.name.Length > 0)
@@ -140,7 +148,7 @@ namespace Student
 
         public static explicit operator int(Studentcs student)
         {
-       
+
             if (student.age >= 18 && student.age <= 22)
                 return student.age - 17; // Номер курса
             else
